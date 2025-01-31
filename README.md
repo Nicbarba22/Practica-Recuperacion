@@ -1,4 +1,4 @@
-#INTRODUCCION
+# INTRODUCCION
 
 # Despliegue de CMS en Infraestructura de Alta Disponibilidad con Vagrant y VirtualBox
 
