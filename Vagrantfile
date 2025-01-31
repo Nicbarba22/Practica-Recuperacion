@@ -1,7 +1,6 @@
-# Vagrantfile
-Este Vagrantfile configura una infraestructura de 3 capas utilizando VirtualBox y Vagrant. 
-Define las máquinas virtuales necesarias para cada capa de la arquitectura: balanceador de carga, servidores web, servidor NFS y base de datos. 
-Se asignan recursos de CPU y memoria adecuados para cada máquina,y se establecen redes privadas y públicas para simular el entorno de producción localmente.
+#Este Vagrantfile configura una infraestructura de 3 capas utilizando VirtualBox y Vagrant. 
+#Define las máquinas virtuales necesarias para cada capa de la arquitectura: balanceador de carga, servidores web, servidor NFS y base de datos. 
+#Se asignan recursos de CPU y memoria adecuados para cada máquina,y se establecen redes privadas y públicas para simular el entorno de producción localmente.
 
 Vagrant.configure("2") do |config|
   config.vm.box = "debian/bullseye64"
